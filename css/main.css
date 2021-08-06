@@ -1,0 +1,507 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  /* background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    background-size: cover; */
+}
+
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.logo {
+  line-height: 30px;
+  /* position: fixed; */
+  float: left;
+  margin: 4px 23px;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-left: 50px;
+}
+
+nav ul {
+  line-height: 30px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #000;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #fff;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 4px 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #000;
+  display: none;
+}
+
+.nav_link_custom {
+  text-decoration: none;
+  padding: 4px;
+  background-image: linear-gradient(#7955c8, #3b295f);
+  border-radius: 8px;
+  border: 1px solid #7955c8;
+  color: azure;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #fff;
+  }
+
+  nav.black ul {
+    background: #fff;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+.body-lg-1 {
+  background: url(../assets/mature-male-freelance-web-designer-sitting-co-working-space-working-laptop-computer-writing-down-tasks-notebook.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body-md-1 {
+  background: url(../assets/mature-male-freelance-web-designer-sitting-co-working-space-working-laptop-computer-writing-down-tasks-notebook.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body-lg-2 {
+  background: url(../assets/business-team-manager-meeting.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body-md-2 {
+  background: url(../assets/business-team-manager-meeting.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color_font_1 {
+  color: #7955c8;
+}
+.color_font_2 {
+  color: #000;
+}
+.color_font_3 {
+  color: #7955c8;
+  font-weight: 600;
+}
+.custom_button {
+  text-decoration: none;
+  height: 35px;
+  width: 75%;
+  background-image: linear-gradient(#7955c8, #3b295f);
+  border-radius: 8px;
+  border: 1px solid #7955c8;
+  color: azure;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.custom_button_2 {
+  width: 20%;
+  height: 7%;
+}
+.font_color_4 {
+  color: #7955c8;
+}
+.border_round {
+  border-radius: 20px;
+}
+footer {
+  background-color: #362658;
+  width: 100%;
+}
+.input_outline {
+  outline: none;
+  box-shadow: none !important;
+}
+.body-back-lg {
+  background: url(../assets/cropped-view-woman-filling-application-form.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 70px;
+}
+.body-back-md {
+  background: url(../assets/cropped-view-woman-filling-application-form.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 60px;
+}
+.custom_button_3 {
+  text-decoration: none;
+  height: 39px;
+  width: 75%;
+  background-image: linear-gradient(#7955c8, #3b295f);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: 1px solid #7955c8;
+  color: azure;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.custom_button_4 {
+  text-decoration: none;
+  height: 39px;
+  width: 75%;
+  background-image: linear-gradient(#7955c8, #3b295f);
+  border: 1px solid #7955c8;
+  color: azure;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.custom_button_6 {
+  text-decoration: none;
+  height: 39px;
+  width: 75%;
+  background-color: #fdba28;
+  border: 1px solid #fdba28;
+  color: azure;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.custom_rounded{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 1500px;
+}
+.custom_input{
+  border-left-width: 1;
+  border-left-style: solid;
+  border-left-color: black;
+  width: 1500px;
+}
+.custom_align{
+  padding: 30px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+}
+.custom_align_md{
+  padding: 30px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+}
+.custom_margin{
+  margin-top: 110px;
+}
+.custom_margin_lg{
+  margin-top: 150px;
+}
+.rounded_card{
+  border-radius: 20px;
+}
+.img_product{
+  background: url(../assets/Group\ 90.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img-position{
+  position: relative;
+  bottom: 70px;
+  left: 200px;
+}
+.img-position_md{
+  position: relative;
+  bottom: 70px;
+}
+.custom-position{
+  position: relative;
+  bottom: 60px;
+}
+.custom-position_md{
+  position: relative;
+  bottom: 60px;
+}
+.margin_left{
+  margin-left: 20px;
+}
+.margin_right{
+  margin-right: 50px;
+}
+.margin_right_md{
+  margin-right: 20px;
+}
+.card_size{
+  width: 250px;
+  height: 125px;
+}
+.bg_purple{
+  background-image: linear-gradient(#7955c8, #3b295f);
+}
+.custom_h7_color {
+  color: #707070;
+}
+.custom_small_color {
+  color: #C8C8C8;
+  font-size: 8;
+}
+.custom_h5_color {
+  color: #707070;
+  font-weight: 600;
+}
+.bg_transparency{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bg_none{
+  background-color: rgba(0, 0, 0, 0);
+}
+.border_white{
+  border-width: 1;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20;
+}
+.border_round_2{
+  border-radius: 15px;
+}
+.font_color_5{
+  border-color: #707070;
+  color: #7955c8;
+}
+.card_size_2{
+  width: 550px;
+  height: 170px;
+}
+.text_grey{
+  color: #707070;
+}
+.margin_left_2{
+  margin-left: 125px;
+}
+.margin_left_3{
+  margin-left: 85px;
+}
+.margin_left_4{
+  margin-left: 750px;
+}
+.rounded_card_2{
+  border-radius: 35px;
+}
+.btn_width{
+  width: 120px;
+}
+.bg_grey{
+  background-color: whitesmoke;
+}
+.font_color_6{
+  color: #7955c8;
+}
+.font_size{
+  font-size: 13px;
+}
+.font_size_2{
+  font-size: 11px;
+}
+.font_size_3{
+  font-size: 11px;
+}
+.font_size_4{
+  font-size: 11px;
+}
+.font_size_5{
+  font-size: 11px;
+}
+.area_size{
+  height: 200px;
+}
+.custom_size{
+  width: 100px;
+}
+.custom_size_2{
+  width: 130px;
+}
+.rounded_card_3{
+  border-radius: 10px;
+}
+.bg_gray{
+  background-color: #E7E7E7;
+}
+.position_sticky{
+  top: 100px;
+}
+
+.position_sticky_2{
+  top: 120px;
+}
+body{
+  font-family: "Lato" sans-serif;
+  font-weight: normal;
+}
+.area_size{
+  height: 200px;
+}
+.rounded_card_3{
+  border-radius: 10px;
+}
+.bg_gray{
+  background-color: #E7E7E7;
+}
+.border_dark{
+  border-left-width: 0.5px;
+  border-left-style: solid;
+  border-left-color: black;
+  height: 30px;
+  margin-left: 10px;
+}
+.font_size{
+  font-size: 13px;
+}
+.font_size_2{
+  font-size: 11px;
+}
+.font_size_3{
+  font-size: 11px;
+}
+.font_size_4{
+  font-size: 11px;
+}
+.font_size_5{
+  font-size: 11px;
+}
+.custom_size{
+  width: 100px;
+}
+.custom_size_2{
+  width: 130px;
+}
+.custom_button_5 {
+  text-decoration: none;
+  height: 25px;
+  width: 100%;
+  background-color: #7955c8;
+  border: 1px solid #7955c8;
+  color: azure;
+  font-weight: bold;
+  font-size: 9px;
+}
+.rounded_card_4{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.rounded_card_5{
+  border-bottom-left-radius: 20px;
+}
+.rounded_card_6{
+  border-top-left-radius: 20px;
+}
+.rounded_card_7{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.card_bg_gray{
+  background-color: #f7f7f7;
+}
+.msg_bg{
+  background-color: #7955c8;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.msg_bg_2{
+  background-color: grey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.width_size{
+  background-color: lightskyblue;
+  border-radius: 15px;
+  width: 200px;
+}
+.height_size{
+  background-color: lightskyblue;
+  border-radius: 15px;
+  height: 200px;
+}
+.area_size{
+  height: 500px;
+}
+.input_font{
+  width: 200px;
+  font-size: 12px;
+}
+.input_font_2{
+  width: 250px;
+  font-size: 12px;
+}
+.button_size{
+  width: 200px;
+}
+.font_color_7{
+  color: #fdba28;
+}
